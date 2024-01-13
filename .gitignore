@@ -70,3 +70,10 @@ package-lock.json
 # Ignore logs and databases
 *.log
 *.sql
+
+
+# Include rules from backend/.gitignore
+backend/.gitignore
+
+# Include rules from frontend/.gitignore
+frontend/.gitignore

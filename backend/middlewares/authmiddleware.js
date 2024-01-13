@@ -20,7 +20,7 @@ export const handleAuth  = async(req, res , next)=>{
         res.status(401).json({ error: "Unauthorized. No valid token provided." });
     }
  }catch(error){
-    console.log(`error in handlAuth middleware ${error.message}`);
+    console.log(`error in handlAuth middleware function :  ${error.message}`);
     res.status(500).json({ error: "Internal Server Error" });
  }
 }

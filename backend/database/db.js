@@ -11,7 +11,7 @@ try{
     console.log(`connected to the database`)
 
 }catch(error){
-    console.log(`error in connect to db ${error.message}`)
+    console.log(`error in connectTODB function :  ${error.message}`)
 }
 }
 
